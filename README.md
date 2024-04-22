@@ -124,3 +124,5 @@ python train.py \
 ```
 
 To train and test another encoders, just replace the ‘—data_dir’ argument in the above commands.
+
+You can access to a notebook for training and testing on the first fold of PANDA dataset via using this [link]([url](https://www.kaggle.com/code/alibalapour/foundation-transmil)).
