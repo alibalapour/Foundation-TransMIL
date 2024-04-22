@@ -118,7 +118,9 @@ python train.py \
     --config='PANDA/TransMIL.yaml' \
     --gpus=0 \
     --fold=0 \
-    --data_dir='[PATH_TO_RESNET_FEATURES]'
+    --data_dir='[PATH_TO_RESNET_FEATURES]' \
+    --label_dir='dataset_csv/PANDA/fold_0.csv' \
+    --log_path='logs/fold_0/'
 ```
 
 To train and test another encoders, just replace the ‘—data_dir’ argument in the above commands.
