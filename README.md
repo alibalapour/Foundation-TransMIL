@@ -2,6 +2,10 @@
 
 In this project, we'll use the recent novel histopathology foundation models, PLIP, CONCH, and UNI, in conjunction with TransMIL. Our aim is to perform slide-level classification on the Prostate Cancer Grade Assessment (PANDA) dataset, and compare these foundation models with each other. These models are innovative and powerful tools for histopathology image analysis. TransMIL is a cutting-edge method for Multi Instance Learning (MIL), particularly for histopathology slides.
 
+![pipeline](Foundation-TransMIL/figures/Pipeline.png)
+
+
+
 # How to Run
 
 ## Step 1: Extract Patches with CLAM
@@ -126,3 +130,7 @@ python train.py \
 To train and test another encoders, just replace the ‘—data_dir’ argument in the above commands.
 
 You can access to a notebook for training and testing on the first fold of PANDA dataset via using this [link](https://www.kaggle.com/code/alibalapour/foundation-transmil).
+
+
+
+# Results
